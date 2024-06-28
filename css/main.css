@@ -60,25 +60,31 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color: #666;
   }
 
   #column-1 {
     background-color: #ff66b3;
+    
   }
 
   #column-2 {
     background-color:  #80bfff;
+   
   }
 
   #column-3 {
     background-color: #79d2a6;
+  width: 100%;
   }
 
   footer {
     background-color: #404040;
   }
-  
+ 
+  .col-3 {
+    width: 50%;
+  }
 }
 
 
@@ -98,10 +104,15 @@ footer {
 
   #column-3 {
     background-color: #ffa31a;
+    width: 33.3%;
   }
 
   footer {
     background-color: #001a00;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
